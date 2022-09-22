@@ -1,0 +1,38 @@
+header{
+    background-color: $celeste;
+    
+    img{
+        width: 100px;
+        margin-left: 20%;
+    }
+    .navbar-toggler{
+        margin-right: 5%;
+        border: none;
+        color: $azul;
+    }
+    .nav-link{
+        color: $azul;
+        font-weight: 500;
+    }
+
+    nav{
+        @include pc-g{
+            justify-content: end;
+        }
+        @include tablet{
+            justify-content: end;
+        }
+    }
+
+    @include tablet{
+        background-color: $celeste;
+    }
+    @include pc-g{
+        background-color: $celeste;
+        
+
+        
+       
+}
+
+}

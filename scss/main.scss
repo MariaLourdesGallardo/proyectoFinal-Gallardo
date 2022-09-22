@@ -1,0 +1,22 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/helpers";
+@import "./utils/functions";
+
+@import "./base/reset";
+@import "./base/typography";
+
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/form";
+
+@import "./components/buttons";
+@import "./components/carousel";
+@import "./components/hero";
+
+@import "./pages/index";
+@import "./pages/aboutas";
+@import "./pages/pricing";
+@import "./pages/review";
+@import "./pages/location";
+

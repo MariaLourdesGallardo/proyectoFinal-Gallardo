@@ -1,0 +1,49 @@
+header {
+  background-color: #bcd2db;
+}
+header img {
+  width: 100px;
+  margin-left: 20%;
+}
+header .navbar-toggler {
+  margin-right: 5%;
+  border: none;
+  color: #035f91;
+}
+header .nav-link {
+  color: #035f91;
+  font-weight: 500;
+}
+@media (min-width: 1200px) {
+  header nav {
+    justify-content: end;
+  }
+}
+@media (min-width: 768px) {
+  header nav {
+    justify-content: end;
+  }
+}
+@media (min-width: 768px) {
+  header {
+    background-color: #bcd2db;
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    background-color: #bcd2db;
+  }
+}
+
+footer {
+  background-color: #bcd2db;
+  color: #035f91;
+}
+footer img {
+  width: 100px;
+}
+footer p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
