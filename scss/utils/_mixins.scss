@@ -12,3 +12,45 @@
          
 }
 
+@mixin box {
+    width: 100%;
+    height: 130px;
+    border: solid 2px red;
+    
+}
+
+@mixin title {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 6px;
+    text-shadow: 3px 3px 3px $celeste;
+    text-align: end;
+    color: $azul;
+    
+    position: relative;
+    animation-name: desplazarse;
+    animation-duration: 3s;
+
+    
+}
+@keyframes desplazarse{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+

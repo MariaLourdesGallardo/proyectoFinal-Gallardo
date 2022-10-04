@@ -1,0 +1,11 @@
+.caja1{
+    @include box ();
+    @include title ();
+}
+.caja2{
+    @include box ();
+    height: 500px;
+}
+.caja3{
+    @include box ();
+}

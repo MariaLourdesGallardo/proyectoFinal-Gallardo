@@ -1,0 +1,22 @@
+
+//molde//
+%tarjeta{
+    width: 300px;
+    height: 250px;
+    background-color:red ;
+    &__img{
+        width: 100%;
+    }
+    &__title{
+        font-size: 2rem;
+    }
+    &__info{
+        font-size: 1.5rem;
+    }
+
+}
+
+.tarjeta--oferta{
+    @extend %tarjeta;
+    width: 200px;
+}
