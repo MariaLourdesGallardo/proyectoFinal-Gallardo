@@ -96,7 +96,7 @@
 @mixin titulo {
     display: flex;
     height: 50px;
-    font-size: 2rem;
+    font-size: 1rem;
     justify-content: center;
     align-items: center;
 
@@ -104,7 +104,7 @@
 
     background: linear-gradient(to right,rgb(17, 69, 92),rgb(11, 77, 116),#C4E9F9ff);
     color:#C4E9F9ff ;
-    font-weight: 700;
+    font-weight: 500;
     
 }
 
