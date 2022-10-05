@@ -9,6 +9,7 @@
         margin-left: -10%;
     }
 }
+
 .caja2{
     @include box ();
     height: 800px;
@@ -16,12 +17,7 @@
    
     
 
-.caja3{
-    @include box ();
-    margin-top: 30px;
-    margin-bottom: 50px;
-    height: auto;
-}
+
 .pie__main{
 
     display: flex;
