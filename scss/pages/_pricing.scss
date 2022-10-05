@@ -2,10 +2,41 @@
     @include box ();
     @include title ();
 }
-.caja2{
-    @include box ();
-    height: 500px;
+.container__form{
+    @include box2();
+    background-image: url(../assets/video\ Joaquin\ \(1\).gif);
+    background-size: cover;
+    
 }
-.caja3{
-    @include box ();
-}
+.form{
+    @include form ();
+    @include flex-center();
+    flex-direction: column;
+    & div{
+        width: 80%;
+        margin: 0;
+        padding: 0;
+    }
+    & h2{
+        color: $celeste;
+        font-size: 2rem;
+        letter-spacing: .5rem;
+        text-shadow: 3px 3px 3px $azul;
+        }
+    &__input{
+        @include form-input();
+       
+    }
+    & p{
+        color: $celeste;
+        padding-top: 12px;
+    }
+    }
+    .form__input:focus{
+        background-color: rgb(15, 64, 90);
+        outline: none;
+        background: linear-gradient(to bottom, transparent, #333);
+    }
+    .form__input::placeholder{
+        color: white;
+    }

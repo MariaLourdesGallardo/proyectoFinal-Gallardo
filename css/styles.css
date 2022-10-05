@@ -55,13 +55,19 @@ footer p {
 }
 
 .btn {
-  padding: 15px 10px;
-  background-color: red;
-  border: 2px solid;
+  width: 50%;
+  padding: 0.4rem;
+  margin: 0.3rem 0;
+  border: none;
+  background-color: #035f91;
+  font-family: "Muli", sans-serif;
+  font-size: 1rem;
+  color: white;
 }
-.btn :hover {
-  background-color: red;
-  color: red;
+.btn:hover {
+  background-color: #bcd2db;
+  color: #035f91;
+  border: 2px solid #035f91;
 }
 
 .caja2 {
@@ -155,17 +161,60 @@ footer p {
   animation-duration: 3s;
 }
 
-.caja2 {
+.container__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 130px;
+  height: 700px;
   border: solid 2px red;
-  height: 500px;
+  background-image: url(../assets/video\ Joaquin\ \(1\).gif);
+  background-size: cover;
 }
 
-.caja3 {
+.form {
+  width: 90%;
+  height: 650px;
+  background: rgba(87, 127, 145, 0.63);
+  border: 50px solid transparent;
+  outline: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form div {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+.form h2 {
+  color: #bcd2db;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  text-shadow: 3px 3px 3px #035f91;
+}
+.form__input {
+  padding: 0.2rem;
+  margin: 0.2rem;
   width: 100%;
-  height: 130px;
-  border: solid 2px red;
+  border: none;
+  border-bottom: 3px solid rgb(3, 95, 145);
+  background-color: rgba(150, 196, 218, 0.4039215686);
+}
+.form p {
+  color: #bcd2db;
+  padding-top: 12px;
+}
+
+.form__input:focus {
+  background-color: rgb(15, 64, 90);
+  outline: none;
+  background: linear-gradient(to bottom, transparent, #333);
+}
+
+.form__input::placeholder {
+  color: white;
 }
 
 .caja1 {

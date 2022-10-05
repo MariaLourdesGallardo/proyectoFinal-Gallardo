@@ -19,6 +19,13 @@
     
 }
 
+@mixin box2 {
+    @include flex-center();
+    width: 100%;
+    height: 700px;
+    border: solid 2px red; 
+}
+
 @mixin title {
     display: flex;
     align-items: center;
@@ -50,6 +57,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+@mixin form {
+    width: 90%;
+    height: 650px;
+    background: rgba(87, 127, 145, 0.63);  
+    border: 50px solid transparent;
+    outline: 1px solid white;
+    
+
+    
+}
+@mixin form-input {
+    padding: .2rem;
+    margin: .2rem ;
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid rgb(3, 95, 145);
+    background-color: #96c4da67;
+    
     
 }
 
