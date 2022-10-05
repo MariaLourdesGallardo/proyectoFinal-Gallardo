@@ -1,22 +1,12 @@
 
 //molde//
-%tarjeta{
-    width: 300px;
-    height: 250px;
-    background-color:red ;
-    &__img{
-        width: 100%;
-    }
-    &__title{
-        font-size: 2rem;
-    }
-    &__info{
-        font-size: 1.5rem;
-    }
-
+.card{
+    border: solid 2px rgb(17, 69, 92);
+    background-color:rgb(226, 236, 240) ;
+    margin-top: 2rem;
 }
-
-.tarjeta--oferta{
-    @extend %tarjeta;
-    width: 200px;
+.card:hover{
+    color:aliceblue;
+    background-color:rgb(17, 69, 92); 
+    border: solid 2px rgb(226, 236, 240) ;
 }

@@ -5,6 +5,19 @@
          
 }
 
+@mixin tablet-lg {
+    @media (min-width: 768px){
+        @content
+    }
+         
+}
+@mixin pc-s {
+    @media (min-width: 998px){
+        @content
+    }
+         
+}
+
 @mixin pc-g {
     @media (min-width: 1200px){
         @content
@@ -78,6 +91,20 @@
     border-bottom: 3px solid rgb(3, 95, 145);
     background-color: #96c4da67;
     
+    
+}
+@mixin titulo {
+    display: flex;
+    height: 50px;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 2rem;
+
+    background: linear-gradient(to right,rgb(17, 69, 92),rgb(11, 77, 116),#C4E9F9ff);
+    color:#C4E9F9ff ;
+    font-weight: 700;
     
 }
 
